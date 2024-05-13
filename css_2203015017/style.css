@@ -1,0 +1,160 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: georgia;
+}
+
+header {
+    background: #1A2238;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background-image: url();
+}
+
+.logo {
+    margin-right: auto;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: all .5s ease 0s;
+}
+
+.logo:hover {
+    color: #FF6A3D;
+    transform: rotate(2deg);
+}
+
+.btn {
+    margin-right: 10px;
+    border: none;
+    font-size: 15px;
+    padding: 6px 12px;
+    background: #FF6A3D;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+nav ul {
+    display: flex;
+    padding: 10px;
+}
+
+li a {
+    transition: all .5s ease 0s;
+    display: inline-block;
+}
+
+li a:hover {
+    color: #FF6A3D;
+    transform: rotate(2deg);
+}
+
+
+li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 70px 0;
+    margin-top: ;
+    background-color: aliceblue;
+
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.deskription {
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.img {
+    width: 50%;
+    max-width: 450 px;
+    height: 50vh;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+
+ul li {
+    display: inline-block;
+    padding: 20px;
+    width: 100%;
+}
+
+ul li:hover {
+    color: #FF6A3D;
+    cursor: pointer;
+
+}
+
+
+.footer {
+    color: white;
+    background: #1A2238;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 5px;
+}
+
+.ctn {
+    justify-content: center;
+}
+
+.ctn-2 {
+    background-color: #1A2238;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
